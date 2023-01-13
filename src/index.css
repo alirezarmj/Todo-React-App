@@ -1,0 +1,19 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir" !important;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+align-items: flex-start;
+} */
