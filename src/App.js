@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import TodoProvider from "./context/TodoProvider";
 import Home from "./pages/Home";
@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
           </TodoProvider>
         } />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
